@@ -16,9 +16,9 @@ export default function SectionReview() {
           </div>
           <div className="w-8/12 pl-10">
             <h3 className="font-medium text-[26px] text-justify ">
-              "Materi yang disampaikan mudah dimengerti, kualitas instruktur
-              sangat baik serta responnya yang cepat. So, kursus disini sangat
-              sangat saya rekomendasikan!!"
+              &quot;Materi yang disampaikan mudah dimengerti, kualitas
+              instruktur sangat baik serta responnya yang cepat. So, kursus
+              disini sangat sangat saya rekomendasikan!!&quot;
             </h3>
             <div className="flex justify-between mt-10">
               <div className="flex items-center space-x-[14px]">

@@ -48,7 +48,7 @@ export default function SectionFooter() {
         <div className="flex justify-between py-7">
           <div className="w-3/12">
             <h4 className="text-lg font-medium">
-              © Copyright EDUFREE 2021 - 2022
+              &copy; Copyright EDUFREE 2021 - 2022
             </h4>
           </div>
           <FooterItemLink />

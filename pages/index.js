@@ -8,10 +8,14 @@ import SectionHero from "@/components/Hero/SectionHerp";
 import Navbar from "@/components/Nav/Navbar";
 import SectionRegistration from "@/components/Registration/SectionRegistration";
 import SectionReview from "@/components/Review/SectionReview";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Edufree | Belajar Otomatis Cuy</title>
+      </Head>
       <Navbar />
       <SectionHero />
       <SectionFlexing />

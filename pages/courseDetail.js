@@ -7,7 +7,7 @@ import GetCourse from "@/components/Courses/GetCourse";
 import MainDetailCourse from "@/components/Courses/MainDetailCourse";
 import { useRouter } from "next/router";
 
-export default function courseDetail() {
+export default function CourseDetail() {
   const useRouter = useRouter();
   const { id } = useRouter.query;
   return (

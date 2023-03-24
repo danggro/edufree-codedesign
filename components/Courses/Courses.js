@@ -11,7 +11,7 @@ export default function Courses() {
     <Container>
       <div className="flex flex-wrap -mx-9 mt-[184px]">
         {courses.map((course) => (
-          <div className="w-4/12 px-9">
+          <div key={course.id} className="w-4/12 px-9">
             <CardCourse
               star={course.star}
               image={course.image}

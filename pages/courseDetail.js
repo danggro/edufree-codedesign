@@ -8,8 +8,8 @@ import MainDetailCourse from "@/components/Courses/MainDetailCourse";
 import { useRouter } from "next/router";
 
 export default function courseDetail() {
-  const router = useRouter();
-  const { id } = router.query;
+  const Router = useRouter();
+  const { id } = Router.query;
   return (
     <>
       <Header first="Kursus" second="Detail Kursus" />

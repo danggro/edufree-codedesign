@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../../Button";
 import Container from "../../Container";
 import CardCourse from "./CardCourse";
@@ -29,7 +30,9 @@ export default function SectionCourse() {
                 ></path>
               </svg>
             </div>
-            <Button variant={`yellow`}>Lihat Semua</Button>
+            <Link href="/courses">
+              <Button variant={`yellow`}>Lihat Semua</Button>
+            </Link>
           </div>
         </div>
         <div className="mt-[60px] mb-[160px] flex space-x-[71px]">

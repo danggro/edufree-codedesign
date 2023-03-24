@@ -7,7 +7,7 @@ import SectionFooter from "@/components/Homepage/Footer.js/SectionFooter";
 export default function courses() {
   return (
     <>
-      <Header />
+      <Header first="Kursus" />
       <SearchCourse />
       <CtgCourse />
       <Courses />

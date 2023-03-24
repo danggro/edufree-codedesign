@@ -7,7 +7,8 @@
     "desc": "Materi pembelajaran mengenai pembuatan website tingkat pemula",
     "time": "4,5",
     "video": "20",
-    "siswa": "1.900"
+    "siswa": "1.900",
+    "category": "Web design dan development"
   },
   {
     "id": "2",
@@ -17,7 +18,8 @@
     "desc": "Materi mengenai strategi dan konsep marketing  pemula",
     "time": "6,2",
     "video": "32",
-    "siswa": "930"
+    "siswa": "930",
+    "category": "Marketing"
   },
   {
     "id": "3",
@@ -27,7 +29,8 @@
     "desc": "Materi pembelajaran mengenai dasar-dasar data science",
     "time": "8",
     "video": "46",
-    "siswa": "1,043"
+    "siswa": "1,043",
+    "category": "Learning Data"
   },
   {
     "id": "4",
@@ -37,7 +40,8 @@
     "desc": "Pelajari tentang konsep dan teori dasar public speaking ",
     "time": "2,6",
     "video": "13",
-    "siswa": "900"
+    "siswa": "900",
+    "category": "Speak Learning"
   },
   {
     "id": "5",
@@ -47,7 +51,8 @@
     "desc": "Pemebelajaran jaringan komputer dasar untuk semua kalangan",
     "time": "4",
     "video": "17",
-    "siswa": "909"
+    "siswa": "909",
+    "category": "Computer Learning"
   },
   {
     "id": "6",
@@ -57,7 +62,8 @@
     "desc": "Dasar-dasar teori dan praktik tentang dunia ui/ux design",
     "time": "5",
     "video": "25",
-    "siswa": "1,150"
+    "siswa": "1,150",
+    "category": "UI/UX Learning"
   },
   {
     "id": "7",
@@ -67,7 +73,8 @@
     "desc": "Mudah dalam berbicara dengan bahasa inggris dengan menguasai grammar",
     "time": "12",
     "video": "50",
-    "siswa": "1,430"
+    "siswa": "1,430",
+    "category": "English Learning"
   },
   {
     "id": "8",
@@ -77,7 +84,8 @@
     "desc": "Teknik penanaman dengan bantuan teknologi yang terbukti",
     "time": "7",
     "video": "24",
-    "siswa": "505"
+    "siswa": "505",
+    "category": "Go Green"
   },
   {
     "id": "9",
@@ -87,6 +95,7 @@
     "desc": "Pelajari konsep dasar tentang mechine learning",
     "time": "7",
     "video": "17",
-    "siswa": "200"
+    "siswa": "200",
+    "category": "Data Learning"
   }
 ]

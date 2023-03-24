@@ -14,7 +14,6 @@ export default function CoursesPage({ children, def, titik }) {
           onClick={(e) => {
             const page = Array.from(document.getElementById("page").children);
             page.forEach((p, i) => {
-              p.classList.remove("text-white", "bg-yellow");
               p.classList.add("bg-secondary", "text-primary/50");
               if (e.target.innerText === p.innerText) {
                 p.classList.add("text-white", "bg-yellow");

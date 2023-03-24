@@ -11,6 +11,7 @@ export default function Category({ children, def }) {
           c.classList.add("opacity-70");
           if (e.target.innerText === c.innerText) {
             c.classList.add("opacity-100");
+            c.classList.remove("opacity-70");
           }
         });
       }}

@@ -1,32 +1,36 @@
 import Image from "next/image";
+import Link from "next/link";
 import Container from "./Container";
 import ItemLink from "./ItemLink";
 
-export default function Header() {
+export default function Header({ first, second }) {
   return (
-    <section>
+    <section id="home">
       <div className="w-screen py-5 text-white bg-dark-blue">
         <Container>
           <div className="flex items-center justify-between">
             <div className="w-3/12">
               <h2 className="text-2xl font-bold">
-                <a href="#home" className="hover:text-yellow">{`[EDUFREE]`}</a>
+                <Link
+                  href="/"
+                  className="hover:text-yellow"
+                >{`[EDUFREE]`}</Link>
               </h2>
             </div>
             <ul className="flex space-x-[34px] w-6/12 justify-center">
-              <ItemLink variant={`white`} href="#home">
+              <ItemLink page variant={`white`} href="/">
                 HOME
               </ItemLink>
-              <ItemLink variant={`white`} href="#about">
+              <ItemLink page variant={`white`} href="/about">
                 TENTANG KAMI
               </ItemLink>
-              <ItemLink variant={`white`} href="#course">
+              <ItemLink page variant={`white`} href="/courses">
                 KURSUS
               </ItemLink>
-              <ItemLink variant={`white`} href="#faq">
+              <ItemLink page variant={`white`} href="/#faq">
                 FAQ
               </ItemLink>
-              <ItemLink variant={`white`} href="#blog">
+              <ItemLink page variant={`white`} href="/blog">
                 <div className="flex items-center space-x-1">
                   <span>BLOG</span>
 
@@ -75,7 +79,9 @@ export default function Header() {
       </div>
       <div className="w-screen bg-secondary-blue py-7">
         <Container>
-          <p className="text-base font-medium opacity-70">Home &gt; Kursus</p>
+          <p className="text-base font-medium opacity-70">
+            Home &gt; {first} {second ? ">" : ""} {second}
+          </p>
         </Container>
       </div>
     </section>

@@ -1,4 +1,4 @@
-const { default: ItemLink } = require("../ItemLink");
+const { default: ItemLink } = require("../../ItemLink");
 
 export default function FooterItemLink() {
   return (

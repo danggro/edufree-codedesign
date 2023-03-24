@@ -1,5 +1,5 @@
-import Button from "../Button";
-import Container from "../Container";
+import Button from "../../Button";
+import Container from "../../Container";
 import CardCourse from "./CardCourse";
 
 export default function SectionCourse() {

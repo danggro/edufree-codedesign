@@ -1,6 +1,7 @@
-import Button from "../Button";
-import Container from "../Container";
-import ItemLink from "../ItemLink";
+import Link from "next/link";
+import Button from "../../Button";
+import Container from "../../Container";
+import ItemLink from "../../ItemLink";
 
 export default function Navbar() {
   return (
@@ -48,7 +49,9 @@ export default function Navbar() {
             </ItemLink>
           </ul>
           <div className="flex">
-            <Button variant={`transparent`}>Login</Button>
+            <Link href={`/login`}>
+              <Button variant={`transparent`}>Login</Button>
+            </Link>
           </div>
         </div>
       </Container>

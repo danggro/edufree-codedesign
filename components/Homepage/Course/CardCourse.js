@@ -14,14 +14,23 @@ export default function CardCourse({
   video,
   siswa,
   star,
+  courses,
 }) {
   return (
-    <div>
-      <div className="relative">
+    <div className={`${courses ? "mb-[71px]" : ""}`}>
+      <div className="relative ">
         <Link href={`/`} className="">
-          <Image width={`386`} height="236" src={image} alt="" />
+          <Image
+            width={`386`}
+            height="236"
+            src={image}
+            alt=""
+            className={`${courses ? "rounded-t-[10px]" : ""}`}
+          />
         </Link>
-        <div className="absolute bottom-0 flex items-center px-3 py-1 translate-y-[50%] space-x-1 text-white rounded-full bg-dark-blue right-2 text-xs">
+        <div
+          className={`absolute bottom-0 flex items-center rounded-full px-3 py-1 translate-y-[50%] space-x-1 text-white bg-dark-blue right-2 text-xs `}
+        >
           <Star />
           <span>{star}</span>
         </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import ArrowRight from "../ArrowRight";
-import Container from "../Container";
+import ArrowRight from "../../ArrowRight";
+import Container from "../../Container";
 import CardBlog from "./CardBlog";
 
 export default function SectionBlog() {

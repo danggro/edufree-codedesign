@@ -1,4 +1,4 @@
-import Container from "../Container";
+import Container from "../../Container";
 import FooterDukungan from "./FooterDukungan";
 import FooterItemLink from "./FooterItemLink";
 import FooterProgram from "./FooterProgram";

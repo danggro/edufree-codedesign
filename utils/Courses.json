@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "star": "4,9",
+    "image": "/course-1.jpg",
+    "title": "Dasar Pemrograman WEB",
+    "desc": "Materi pembelajaran mengenai pembuatan website tingkat pemula",
+    "time": "4,5",
+    "video": "20",
+    "siswa": "1.900"
+  },
+  {
+    "id": "2",
+    "star": "4,9",
+    "image": "/course-2.jpg",
+    "title": "Digital Marketing 101",
+    "desc": "Materi mengenai strategi dan konsep marketing  pemula",
+    "time": "6,2",
+    "video": "32",
+    "siswa": "930"
+  },
+  {
+    "id": "3",
+    "star": "4,9",
+    "image": "/course-3.jpg",
+    "title": "Data Science Dasar",
+    "desc": "Materi pembelajaran mengenai dasar-dasar data science",
+    "time": "8",
+    "video": "46",
+    "siswa": "1,043"
+  },
+  {
+    "id": "4",
+    "star": "4,6",
+    "image": "/course-4.jpg",
+    "title": "Public Speaking Dasar",
+    "desc": "Pelajari tentang konsep dan teori dasar public speaking ",
+    "time": "2,6",
+    "video": "13",
+    "siswa": "900"
+  },
+  {
+    "id": "5",
+    "star": "4,9",
+    "image": "/course-5.jpg",
+    "title": "Jaringan Dasar",
+    "desc": "Pemebelajaran jaringan komputer dasar untuk semua kalangan",
+    "time": "4",
+    "video": "17",
+    "siswa": "909"
+  },
+  {
+    "id": "6",
+    "star": "4,7",
+    "image": "/course-6.jpg",
+    "title": "UI/UX Pemula",
+    "desc": "Dasar-dasar teori dan praktik tentang dunia ui/ux design",
+    "time": "5",
+    "video": "25",
+    "siswa": "1,150"
+  },
+  {
+    "id": "7",
+    "star": "4,8",
+    "image": "/course-7.jpg",
+    "title": "Bahasa Inggris Dasar",
+    "desc": "Mudah dalam berbicara dengan bahasa inggris dengan menguasai grammar",
+    "time": "12",
+    "video": "50",
+    "siswa": "1,430"
+  },
+  {
+    "id": "8",
+    "star": "4,4",
+    "image": "/course-8.jpg",
+    "title": "Teknologi Cocok Tanaman",
+    "desc": "Teknik penanaman dengan bantuan teknologi yang terbukti",
+    "time": "7",
+    "video": "24",
+    "siswa": "505"
+  },
+  {
+    "id": "9",
+    "star": "4,9",
+    "image": "/course-9.jpg",
+    "title": "Machine Learning 101",
+    "desc": "Pelajari konsep dasar tentang mechine learning",
+    "time": "7",
+    "video": "17",
+    "siswa": "200"
+  }
+]

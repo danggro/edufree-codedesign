@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import ArrowRight from "../ArrowRight";
-import Button from "../Button";
-import Container from "../Container";
+import ArrowRight from "../../ArrowRight";
+import Button from "../../Button";
+import Container from "../../Container";
 
 export default function SectionHero() {
   return (

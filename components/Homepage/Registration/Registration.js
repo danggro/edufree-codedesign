@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Button from "../Button";
+import Button from "../../Button";
 import InputRegistration from "./InputRegistration";
 
 export default function Registration() {
@@ -7,10 +7,10 @@ export default function Registration() {
     <div className="flex w-full text-white bg-dark-blue">
       <div className="w-6/12 bg-[url('../public/registration.jpg')] bg-cover ">
         <div className="pl-[75px] h-full pt-[75px] pr-[150px] pb-[330px] bg-dark-blue/60">
-          <h2 className="text-[42px] font-semibold pr-20">
+          <h2 className="text-[42px] font-semibold">
             Selangkah Lebih Dekat Dengan Impianmu
           </h2>
-          <p className="pr-20 mt-6 text-base font-medium leading-[28px]">
+          <p className="mt-6 text-base font-medium">
             Sebuah layanan E-Learning gratis yang siap membantumu menjadi
             seorang ahli
           </p>
@@ -30,10 +30,10 @@ export default function Registration() {
           <Button variant={`yellow-tracking`}>DAFTAR</Button>
         </div>
         <p className="text-center text-lg mt-[27px]">
-          Sudah punya akun?{" "}
+          Sudah punya akun?
           <Link href={`/login`} className="underline hover:text-yellow">
             Login
-          </Link>{" "}
+          </Link>
         </p>
       </div>
     </div>

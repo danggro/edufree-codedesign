@@ -5,3 +5,4 @@ Pages:
 /login
 /registration
 /courses
+/courseDetail

@@ -19,7 +19,9 @@ export default function SectionHero() {
               teknologi.
             </h4>
             <div className="flex space-x-[35px] items-center text-white">
-              <Button variant={`yellow`}>Lihat Kursus</Button>
+              <Link href={`/courses`}>
+                <Button variant={`yellow`}>Lihat Kursus</Button>
+              </Link>
               <Link href={``} className="hover:underline">
                 <div className="flex items-center space-x-2">
                   <h4 className="text-base">Lihat Alur Belajar</h4>

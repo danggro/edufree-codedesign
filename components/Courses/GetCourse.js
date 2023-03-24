@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../Button";
 import Container from "../Container";
 
@@ -12,7 +13,9 @@ export default function GetCourse() {
           Yu akses kelas gratisnya, dengan cara klik button dibawah ini
         </p>
         <div className="w-4/12 mx-auto">
-          <Button variant={`yellow-tracking`}>IKUTI KURSUS</Button>
+          <Link href={`/coursesuccess`}>
+            <Button variant={`yellow-tracking`}>IKUTI KURSUS</Button>
+          </Link>
         </div>
       </div>
     </Container>

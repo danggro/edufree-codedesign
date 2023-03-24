@@ -4,9 +4,6 @@ import mockCourses from "../../utils/Courses.json";
 
 export default function HeadDetailCourse() {
   const [courses, setCourses] = useState(mockCourses);
-  useEffect(() => {
-    console.log(courses[0].category);
-  });
   return (
     <>
       {courses.map((course) => {

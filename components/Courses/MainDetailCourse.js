@@ -3,7 +3,7 @@ import mockCourses from "../../utils/Courses.json";
 import { useState } from "react";
 import Image from "next/image";
 
-export default function MainDetailCourse() {
+export default function MainDetailCourse({ idCourse }) {
   const [courses, setCourses] = useState(mockCourses);
   return (
     <Container>
@@ -31,7 +31,7 @@ export default function MainDetailCourse() {
           <li>3. Menunjang karir</li>
         </ul>
         {courses.map((course) => {
-          if (course.id === "1") {
+          if (course.id === `${idCourse}`) {
             return (
               <Image
                 src={course.image}

@@ -2,12 +2,13 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import mockCourses from "../../utils/Courses.json";
 
-export default function HeadDetailCourse() {
+export default function HeadDetailCourse({ idCourse }) {
   const [courses, setCourses] = useState(mockCourses);
+
   return (
     <>
       {courses.map((course) => {
-        if (course.id === "1") {
+        if (course.id === `${idCourse}`) {
           return (
             <div
               key={course.id}

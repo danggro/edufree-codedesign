@@ -45,6 +45,7 @@ export default function SectionCourse() {
               time="4,5"
               video="20"
               siswa="1.900"
+              id="1"
             />
           </div>
           <div className="w-4/12">
@@ -56,6 +57,7 @@ export default function SectionCourse() {
               time="6,2"
               video="32"
               siswa="930"
+              id="2"
             />
           </div>
           <div className="w-4/12">
@@ -67,6 +69,7 @@ export default function SectionCourse() {
               time="8"
               video="46"
               siswa="1,043"
+              id="3"
             />
           </div>
         </div>

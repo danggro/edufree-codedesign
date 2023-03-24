@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import People from "./People";
 import Star from "./Star";
 import Time from "./Time";
@@ -15,11 +14,15 @@ export default function CardCourse({
   siswa,
   star,
   courses,
+  id,
 }) {
   return (
     <div className={`${courses ? "mb-[71px]" : ""}`}>
       <div className="relative ">
-        <Link href={`/`} className="">
+        <Link
+          href={{ pathname: "/courseDetail", query: { id: `${id}` } }}
+          className=""
+        >
           <Image
             width={`386`}
             height="236"
@@ -37,7 +40,9 @@ export default function CardCourse({
       </div>
       <div className="px-4 py-6 ">
         <h4 className="text-2xl font-medium">
-          <Link href={`/`}>{title}</Link>
+          <Link href={{ pathname: "/courseDetail", query: { id: "1" } }}>
+            {title}
+          </Link>
         </h4>
         <p className="mt-1 mb-6 text-base opacity-70">{desc}</p>
         <div className="flex items-center space-x-4 opacity-90">

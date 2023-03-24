@@ -20,6 +20,7 @@ export default function Courses() {
               time={course.time}
               video={course.video}
               siswa={course.siswa}
+              id={course.id}
               courses
             />
           </div>

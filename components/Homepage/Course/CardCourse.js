@@ -20,7 +20,7 @@ export default function CardCourse({
     <div className={`${courses ? "mb-[71px]" : ""}`}>
       <div className="relative ">
         <Link
-          href={{ pathname: "/courseDetail", query: { id: `${id}` } }}
+          href={{ pathname: "/CourseDetail", query: { id: `${id}` } }}
           className=""
         >
           <Image

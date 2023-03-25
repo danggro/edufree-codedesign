@@ -40,7 +40,7 @@ export default function CardCourse({
       </div>
       <div className="px-4 py-6 ">
         <h4 className="text-2xl font-medium">
-          <Link href={{ pathname: "/courseDetail", query: { id: "1" } }}>
+          <Link href={{ pathname: "/CourseDetail", query: { id: `${id}` } }}>
             {title}
           </Link>
         </h4>

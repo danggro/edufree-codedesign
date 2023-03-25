@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function coursesuccess() {
   return (
@@ -19,7 +20,9 @@ export default function coursesuccess() {
           Kursus yang anda pilih sudah dibuka. Silahkan klik tombol di bawah ini
         </p>
         <div className="mx-auto">
-          <Button variant={`yellow`}>Buka Kursus</Button>
+          <Link href="/learningroom">
+            <Button variant={`yellow`}>Buka Kursus</Button>
+          </Link>
         </div>
       </div>
     </div>

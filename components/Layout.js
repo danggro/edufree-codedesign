@@ -13,7 +13,7 @@ export default function Layout({ children, menu }) {
         {menu}
       </div>
       <div className="w-full max-h-[100vh] bg-secondary-blue px-[71px] overflow-y-scroll">
-        <div className="py-6 mb-[60px] flex items-center justify-between">
+        <div className="py-6 mb-[40px] flex items-center justify-between">
           <div className="relative z-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"

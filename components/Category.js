@@ -1,7 +1,7 @@
 export default function Category({ children, def }) {
   return (
     <li
-      className={`text-lg font-medium  cursor-pointer ${
+      className={`text-lg font-medium text-royal-blue  cursor-pointer ${
         def ? "opacity-100" : "opacity-70"
       }`}
       onClick={function (e) {

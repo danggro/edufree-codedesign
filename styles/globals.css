@@ -9,3 +9,7 @@ html {
 .shadow-statistik {
   box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
 }
+
+.head-blog-p {
+  @apply font-medium text-2xl opacity-100 my-6;
+}

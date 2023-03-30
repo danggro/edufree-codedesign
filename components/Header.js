@@ -21,7 +21,7 @@ export default function Header({ first, second }) {
               <ItemLink page variant={`white`} href="/">
                 HOME
               </ItemLink>
-              <ItemLink page variant={`white`} href="/about">
+              <ItemLink page variant={`white`} href="/#about">
                 TENTANG KAMI
               </ItemLink>
               <ItemLink page variant={`white`} href="/courses">
@@ -30,7 +30,7 @@ export default function Header({ first, second }) {
               <ItemLink page variant={`white`} href="/#faq">
                 FAQ
               </ItemLink>
-              <ItemLink page variant={`white`} href="/blog">
+              <ItemLink page variant={`white`} href="/Blog">
                 <div className="flex items-center space-x-1">
                   <span>BLOG</span>
 

@@ -10,7 +10,11 @@ import Container from "@/components/Container";
 import RightBlog from "@/components/Blog/RightBlog";
 import BotBlog from "@/components/Blog/BotBlog";
 import CoursesPage from "@/components/Courses/CoursesPage";
+import mockBlog from "@/utils/Blog.json";
+import { useState } from "react";
+
 export default function blog() {
+  const [blogs, setBlogs] = useState(mockBlog);
   return (
     <>
       <Header first={`Blog`} />
@@ -21,24 +25,39 @@ export default function blog() {
         <CtgBlog />
         <div className="flex mt-20 space-x-5">
           <div className="w-7/12 ">
-            <Link href={``}>
-              <Image src={blog1} alt="" className="w-full" />
+            <Link
+              href={{
+                pathname: "/blogdetail",
+                query: { id: `${blogs[0].id}` },
+              }}
+            >
+              <Image
+                width={`746`}
+                height="368"
+                src={blogs[0].image}
+                alt=""
+                className="w-full"
+              />
             </Link>
             <p className="mt-8 mb-4 text-base font-medium opacity-70">
-              19 Jan 2022
+              {blogs[0].date}
             </p>
-            <Link href={``}>
-              <h3 className="text-2xl font-semibold">
-                Cara Menjadi Seorang Ahli Teknologi Diusia Muda Dengan Modal
-                Minim
-              </h3>
+            <Link
+              href={{
+                pathname: "/blogdetail",
+                query: { id: `${blogs[0].id}` },
+              }}
+            >
+              <h3 className="text-2xl font-semibold">{blogs[0].title}</h3>
             </Link>
-            <p className="pr-5 mt-2 text-lg opacity-70 mb-9">
-              See how pivoting to Webflow changed one person&apos;s sales
-              strategy and allowed him to attract. See how pivoting to Webflow
-              changed one person&apos;s sales strategy
-            </p>
-            <Link href={``} className="hover:underline">
+            <p className="pr-5 mt-2 text-lg opacity-70 mb-9">{blogs[0].desc}</p>
+            <Link
+              href={{
+                pathname: "/blogdetail",
+                query: { id: `${blogs[0].id}` },
+              }}
+              className="hover:underline"
+            >
               <div className="flex items-center space-x-3 text-base font-medium">
                 <span>Selengkapnya</span>
                 <ArrowRight />

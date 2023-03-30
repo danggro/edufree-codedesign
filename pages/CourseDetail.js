@@ -1,6 +1,6 @@
 import Container from "@/components/Container";
 import Header from "@/components/Header";
-import HeadDetailCourse from "@/components/Courses/HeadDetailCourse";
+import HeadDetailCourse from "@/components/Courses/HeadDetailCourse.1";
 import SectionFooter from "@/components/Homepage/Footer.js/SectionFooter";
 import CoursesItem from "@/components/Courses/CoursesItem";
 import GetCourse from "@/components/Courses/GetCourse";

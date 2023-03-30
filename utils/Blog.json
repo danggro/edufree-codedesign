@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "image": "/blog-main.png",
+    "title": "Cara Menjadi Seorang Ahli Teknologi Diusia Muda Dengan Modal Minim",
+    "date": "19 Januari 2022",
+    "desc": "See how pivoting to Webflow changed one person&apos;s sales strategy and allowed him to attract. See how pivoting to Webflow changed one person&apos;s sales strategy"
+  },
+  {
+    "id": "2",
+    "image": "/blog-1.png",
+    "title": "Cara Mudah Untuk Memulai Belajar Programming - EDUFREE ",
+    "date": "19 Januari 2022",
+    "desc": "Menjadi seorang programmer saat ini sudah sangat mudah untuk dipelajari oleh siapapun ..."
+  },
+  {
+    "id": "3",
+    "image": "/blog-2.png",
+    "title": "Tips Membuat Website Landing Page Bussines - EDUFREE",
+    "date": "19 Januari 2022",
+    "desc": "Pentingnya website dalam menumbuhkan rasa kepercayaan terhadap bisnis, membuat ..."
+  },
+  {
+    "id": "4",
+    "image": "/blog-3.png",
+    "title": "Cara Insallasi Wordpress Untuk Pemula - EDUFREE",
+    "date": "19 Januari 2022",
+    "desc": "Membuat website saat ini sudah bisa tanpa codingan, kini kamu bisa membuatnya dengan ..."
+  },
+  {
+    "id": "5",
+    "image": "/blog-4.png",
+    "title": "Mudah Dalam Membuat Webtsite Tanpa Coding",
+    "date": "1 Februari 2022",
+    "width": "120",
+    "height": "120"
+  },
+  {
+    "id": "6",
+    "image": "/blog-5.png",
+    "title": "Pelajari Alur Pembuatan Sebuah Design Product",
+    "date": "5 Februari 2022",
+    "width": "120",
+    "height": "120"
+  },
+  {
+    "id": "7",
+    "image": "/blog-6.png",
+    "title": "Apa yang harus diperesiapkan untuk melamar pekerjaan",
+    "date": "1 Maret 2022",
+    "width": "120",
+    "height": "120"
+  },
+  {
+    "id": "8",
+    "image": "/blog-7.png",
+    "title": "Pekerjaan bidang tekonolgi yang bisa didapatkan tanpa kuliah",
+    "date": "5 Maret 2022",
+    "width": "120",
+    "height": "120"
+  }
+]

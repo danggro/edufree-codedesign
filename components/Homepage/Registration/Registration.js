@@ -30,7 +30,7 @@ export default function Registration() {
           <Button variant={`yellow-tracking`}>DAFTAR</Button>
         </div>
         <p className="text-center text-lg mt-[27px]">
-          Sudah punya akun?
+          Sudah punya akun?{` `}
           <Link href={`/login`} className="underline hover:text-yellow">
             Login
           </Link>

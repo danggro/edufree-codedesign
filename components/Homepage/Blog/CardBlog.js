@@ -1,20 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function CardBlog({ image, date, title, desc }) {
+export default function CardBlog({ image, date, title, desc, id }) {
   return (
     <div className="w-4/12 px-5">
-      <Link href={`/`}>
+      <Link href={{ pathname: "/blogdetail", query: { id: `${id}` } }}>
         <Image width={`405`} height="285" src={image} alt="" />
       </Link>
       <p className="mt-10 text-base font-medium opacity-70">{date}</p>
-      <Link href={`/`}>
+      <Link href={{ pathname: "/blogdetail", query: { id: `${id}` } }}>
         <h4 className="mt-4 text-xl font-medium">{title}</h4>
       </Link>
       <p className="mt-4 text-base opacity-70">{desc}</p>
       <div className="text-base font-medium mt-9">
         <Link
-          href={`/`}
+          href={{ pathname: "/blogdetail", query: { id: `${id}` } }}
           className="flex items-center space-x-2 w-fit hover:underline"
         >
           <span>Selengkapnya</span>

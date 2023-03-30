@@ -10,7 +10,7 @@ export default function SectionBlog() {
         <div className="flex items-center justify-between">
           <h2 className="font-semibold text-[38px]">Blog, Berita dan Event</h2>
           <div className="flex items-center space-x-2">
-            <Link href={`/blog`} className="hover:underline">
+            <Link href={`/Blog`} className="hover:underline">
               <span className="text-base">Lihat Semua</span>
             </Link>
             <ArrowRight />

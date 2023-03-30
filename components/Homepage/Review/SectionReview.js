@@ -75,6 +75,7 @@ export default function SectionReview() {
                 {review.map((r) => {
                   return (
                     <span
+                      key={r.id}
                       data-key={r.id}
                       className={`w-4 h-4 rounded-full cursor-pointer bg-royal-blue  ${
                         r.id == text ? "opacity-100" : "opacity-40"

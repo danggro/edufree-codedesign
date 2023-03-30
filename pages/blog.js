@@ -13,7 +13,7 @@ import CoursesPage from "@/components/Courses/CoursesPage";
 import mockBlog from "@/utils/Blog.json";
 import { useState } from "react";
 
-export default function blog() {
+export default function Blog() {
   const [blogs, setBlogs] = useState(mockBlog);
   return (
     <>

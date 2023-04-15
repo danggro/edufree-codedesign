@@ -6,3 +6,9 @@ Pages:
 - /registration
 - /courses
 - /courseDetail
+- /coursesuccess
+- /learningroom
+- /dashboard
+- /blog
+- /blogdetail
+- /404 
